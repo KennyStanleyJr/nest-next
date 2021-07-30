@@ -1,8 +1,14 @@
 # compiled output
 /dist
+
+# dependencies
 /node_modules
 
-# Logs
+# next.js
+.next/
+out/
+
+# logs
 logs
 *.log
 npm-debug.log*
@@ -11,10 +17,11 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
-# OS
+# misc
 .DS_Store
+*.pem
 
-# Tests
+# tests
 /coverage
 /.nyc_output
 
@@ -33,3 +40,9 @@ lerna-debug.log*
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
