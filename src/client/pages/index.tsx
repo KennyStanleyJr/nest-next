@@ -5,7 +5,7 @@ const Home: NextPage = () => {
   return (
     <>
       <div className="grid place-items-center h-screen bg-gray-900">
-        <h1 className="text-4xl text-white font-bold">Hello, World!</h1>
+        <h1 className="text-7xl text-white font-bold">Hello, World!</h1>
       </div>
     </>
   );
