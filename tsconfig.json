@@ -13,4 +13,7 @@
     "jsx": "preserve" 
   },
   "include": ["src/server/**/*.ts"],
+  "exclude": [
+    "src/client"
+  ]
 }
